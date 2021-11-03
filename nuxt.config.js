@@ -55,7 +55,7 @@ export default {
   },
 
   router: {
-    base: '/landing-page/'
+    base: '/'
   }, 
 
   watch: ['~/assets/fonts/*.ttf', '~/assets/*.*', '~/components/*.vue', '~/pages/*.vue' ],
