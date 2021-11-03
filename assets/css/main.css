@@ -21,3 +21,7 @@
   font-display: swap;
   src: url('~assets/fonts/OpenSans-Light.ttf') format('truetype');
 }
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(90deg) brightness(111%) contrast(101%);
+}

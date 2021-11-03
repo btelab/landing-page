@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'bte-lab',
+    title: 'Escobedo Lucea BTE Lab',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Escobedo Lucea BTE Lab is a research department from Fundation HGU Hospital General Universitario, specialize in biomaterials and regenerative tissue.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -54,10 +55,10 @@ export default {
   },
 
   router: {
-    base: '/bte-lab/'
+    base: '/landing-page/'
   }, 
 
-  watch: ['~/assets/fonts/*.ttf', '~/assets/*.png', '~/components/*.vue', '~/pages/*.vue' ],
+  watch: ['~/assets/fonts/*.ttf', '~/assets/*.*', '~/components/*.vue', '~/pages/*.vue' ],
 
   svg: {
     vueSvgLoader: {
