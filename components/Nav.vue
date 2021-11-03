@@ -4,13 +4,14 @@
     <div class="flex flex-shrink-0 text-white md:container md:mx-auto">
       <a href="#">
         <img 
-          class="w-44 h-auto md:w-32"
-          src="~assets/logo_blanco.png" 
+          class="w-44 md:w-32 h-auto filter-white" 
+          src="~assets/logo.svg"
           alt="Escobedo Lucea Biomaterial and Tissue Engineering Lab logo" />
       </a>
     </div>
   </nav>
 </template>
+
 
 <script>
 export default {

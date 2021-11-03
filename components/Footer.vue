@@ -1,8 +1,9 @@
 <template>
   <footer class="py-6 bg-black text-white text-sm mt-12 font-sans">
-    <div class="container mx-auto">
-      <div class="md:flex justify-start">
-        <div class="mb-4 md:mb-0 pl-10 lg:pl-0">
+    <div class="container mx-auto flex flex-row">
+    
+      <div class="w-2/3">
+        <div class="md:mb-0 pl-10 lg:pl-0">
           <h4 class="text-3xl mb-2">Contact Us</h4>
           <address class="text-md">
             Visit us at:<br>
@@ -12,20 +13,24 @@
             <a href="tel:96666666">96 666 666</a>
           </address>
         </div>
-
-        <!-- <div class="flex justify-center">
-          <div class="w-8 text-gray-500">
-            <a href="#" class="hover:text-gray-700">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current">
-                <path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm2.274 6.634h-1.443c-.171 0-.361.225-.361.524V8.6h1.805l-.273 1.486H10.47v4.461H8.767v-4.461H7.222V8.6h1.545v-.874c0-1.254.87-2.273 2.064-2.273h1.443v1.581z" />
-              </svg>
-            </a>
-          </div>
-
+      </div>
+  
+      <div class="w-1/3">
+        <div class="flex justify-end pr-10 lg:pr-0">
           <div class="w-8 ml-2 text-gray-500">
             <a href="#" class="hover:text-gray-700">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current">
                 <path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm3.905 7.864c.004.082.005.164.005.244 0 2.5-1.901 5.381-5.379 5.381a5.335 5.335 0 0 1-2.898-.85c.147.018.298.025.451.025.886 0 1.701-.301 2.348-.809a1.895 1.895 0 0 1-1.766-1.312 1.9 1.9 0 0 0 .853-.033 1.892 1.892 0 0 1-1.517-1.854v-.023c.255.141.547.227.857.237a1.89 1.89 0 0 1-.585-2.526 5.376 5.376 0 0 0 3.897 1.977 1.891 1.891 0 0 1 3.222-1.725 3.797 3.797 0 0 0 1.2-.459 1.9 1.9 0 0 1-.831 1.047 3.799 3.799 0 0 0 1.086-.299 3.834 3.834 0 0 1-.943.979z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- 
+          
+          <div class="w-8  text-gray-500">
+            <a href="#" class="hover:text-gray-700">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current">
+                <path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm2.274 6.634h-1.443c-.171 0-.361.225-.361.524V8.6h1.805l-.273 1.486H10.47v4.461H8.767v-4.461H7.222V8.6h1.545v-.874c0-1.254.87-2.273 2.064-2.273h1.443v1.581z" />
               </svg>
             </a>
           </div>
@@ -38,7 +43,7 @@
               </svg>
             </a>
           </div>
-        </div> -->
+        </div>  -->
       </div>
     </div>
   </footer>
