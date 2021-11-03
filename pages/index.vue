@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full bg-back">
+  <div class="flex flex-col w-full bg-back font-sans">
     <Nav />
     <MainBanner />
     <UnderContruction />

@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="w-full h-screen bg-cover bg-center bg-black bg-banner-1 scale-100 animate-fade-in filter contrast-130 brightness-130"><!-- filter contrast-150 brightness-125 -->
-    <div class="flex flex-col text-center items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+  <div class="w-full h-screen bg-cover bg-center bg-black bg-banner-1 scale-100 animate-fade-in">
+    <div class="flex flex-col text-center items-center justify-center h-full w-full bg-opacity-50">
       <div class="flex w-full h-1/4 justify-center mb-5">
         <img 
           class="w-2/3 lg:w-1/3 h-auto filter-white" 
