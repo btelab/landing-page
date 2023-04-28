@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Futura-LT-W01-Book";
+    src: url("/fonts/futura-lt-w01-book.eot");
+    src: url("/fonts/futura-lt-w01-book.eot") format("eot"),url("/fonts/futura-lt-w01-book.woff2") format("woff2"),url("/fonts/futura-lt-w01-book.woff") format("woff"),url("/fonts/futura-lt-w01-book.ttf") format("truetype"),url("/fonts/futura-lt-w01-book.svg") format("svg");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Avenir-LT-Light";
+    src: url("/fonts/futura-lt-w01-book.eot");
+    src: url("/fonts/futura-lt-w01-book.eot") format("eot"),url("/fonts/futura-lt-w01-book.woff2") format("woff2"),url("/fonts/futura-lt-w01-book.woff") format("woff"),url("/fonts/futura-lt-w01-book.ttf") format("truetype"),url("/fonts/futura-lt-w01-book.svg") format("svg");
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/raleway-normal-400.woff2") format('woff2');
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Avenir-LT-W05_35-Light";
+    src: url("/fonts/AvenirLTW05-35Light.woff2") format("woff2"), url("/fonts/AvenirLTW05-35Light.woff") format("woff");
+    font-display: block;
+}

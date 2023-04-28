@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -21,11 +23,16 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/main.css'
+    '~/assets/css/main.css',
   ],
+
+  env: {
+    instagramAccessToken: process.env.INSTAGRAM_ACCESS_TOKEN
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/scroll-to-top.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,12 +46,28 @@ export default {
     '@nuxtjs/tailwindcss',
     // nuxt svg loader
     '@nuxtjs/svg',
+    // nuxt image loader
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/robots'
+    'nuxt-leaflet',
   ],
+
+  image: {
+    // Options
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536
+    },
+    
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -55,11 +78,17 @@ export default {
     'postcss-hexrgba': {}
   },
 
+  publicRuntimeConfig: {
+    instagramAccessToken: process.env.INSTAGRAM_ACCESS_TOKEN || "none"
+  },
+
   router: {
-    base: '/'
+    base: '/' // for production only
+    // base: '/bte-lab/' // for local development only (remove for production)
+
   }, 
 
-  watch: ['~/assets/fonts/*.ttf', '~/assets/*.*', '~/components/*.vue', '~/pages/*.vue' ],
+  watch: ['~/assets/fonts/*.ttf', '~/assets/*.png', '~/components/*.vue', '~/pages/*.vue' ],
 
   svg: {
     vueSvgLoader: {
@@ -68,12 +97,5 @@ export default {
     svgSpriteLoader: {
       // svg-sprite-loader options
     }
-  },
-
-  robots: {
-    /* module options */
-    UserAgent: '*',
-    Disallow: '',
-    CrawlCelay: 5,
   }
 }

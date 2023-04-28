@@ -1,8 +1,24 @@
+
 <template>
-  <div class="flex flex-col w-full bg-back font-sans">
+  <div class="flex flex-col w-full bg-back">
     <Nav />
+
     <MainBanner />
-    <UnderContruction />
+    
+    <About />
+    
+    <HospitalBanner />
+
+    <ResearchMain />
+
+    <Team />
+
+    <!-- <Instagram /> -->
+
+    <ContactForm />
+
+    <Map />
+    
     <Footer />
   </div>
 </template>
