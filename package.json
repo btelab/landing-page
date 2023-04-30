@@ -13,16 +13,25 @@
     "release": "npm run generate:gh-pages && npm run deploy"
   },
   "dependencies": {
-    "@nuxtjs/robots": "^2.5.0",
+    "@googlemaps/js-api-loader": "^1.15.1",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "leaflet": "^1.9.3",
+    "nuxt": "^2.15.7",
+    "nuxt-leaflet": "^0.0.27",
+    "vue-slick": "^1.2.0",
+    "vue2-leaflet": "^2.7.1"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxt/types": "^2.15.7",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/svg": "^0.3.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "dotenv": "^16.0.3",
     "postcss": "^8.3.5",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue-slick-carousel": "^1.0.6"
   }
 }
