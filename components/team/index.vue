@@ -162,13 +162,13 @@ export default {
                 title: "PhD, Biologist",
                 position: "PI BTELab",
                 url: '/CARMEN.png',
-                link: "https://www.linkedin.com/in/carmen-escobedo-lucea-75672190/"
+                link: "https://cvn.fecyt.es/0000-0002-5642-0536"
             }, {
                 name: "Andrés Sanz García",
                 title: "PhD",
                 position: "Engineer Senior Researcher",
                 url: '/ANDRES.png',
-                link: "https://www.linkedin.com/in/andres-sanz-ba079b29",
+                link: "https://cvn.fecyt.es/0000-0003-0413-4965",
             }, {
                 name: "Matteo Perra",
                 title: "PhD",
