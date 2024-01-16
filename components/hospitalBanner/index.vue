@@ -17,7 +17,7 @@
                     
                      <nuxt-img
                         format="webp"
-                        src="/fotogrupo-1600px.png"
+                        src="/fotogrupo-actu.png"
                         alt="BTE Lab team photo"
                         fetchpriority="low" 
                         width="980"

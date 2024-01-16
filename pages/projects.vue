@@ -5,7 +5,7 @@
       
       <Projects />
 
-      <FooterBlank />
+      <Footer />
     </div>
   </template>
   
