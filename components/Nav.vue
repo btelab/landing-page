@@ -40,18 +40,18 @@
 
               <nuxt-link :to="`${$router.options.base}#about`" title="About Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">About</nuxt-link>
-
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
-                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Team</nuxt-link>
-
+                
               <nuxt-link :to="`${$router.options.base}research`" title="Research Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Research</nuxt-link>
+              
+              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
+                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Team</nuxt-link>
 
               <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Projects</nuxt-link>
 
-              <nuxt-link :to="`${$router.options.base}awards`" title="Awards Section"
-                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Awards</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}blog`" title="Blog Section"
+                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Blog</nuxt-link>
 
               <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Publications</nuxt-link>
@@ -75,16 +75,16 @@
               <nuxt-link :to="`${$router.options.base}#about`" title="About Section" class="mx-2.5 font-avenir color-corvid">About</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section" class="mx-2.5 font-avenir color-corvid">Team</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}research`" title="Research Section" class="mx-2.5 font-avenir color-corvid">Research</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}research`" title="Research Section" class="mx-2.5 font-avenir color-corvid">Research</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section" class="mx-2.5 font-avenir color-corvid">Team</nuxt-link>
             </div>
             <div>
               <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section" class="mx-2.5 font-avenir color-corvid">Projects</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}awards`" title="Awards Section" class="mx-2.5 font-avenir color-corvid">Awards</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}blog`" title="Blog Section" class="mx-2.5 font-avenir color-corvid">Blog</nuxt-link>
             </div>
             <div>
               <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section" class="mx-2.5 font-avenir color-corvid">Publications</nuxt-link>

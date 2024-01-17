@@ -12,45 +12,66 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'REALISTIC'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">REALISTIC</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="realistic-logo">
+                            <!-- <span class="text-5xl font-raleway">REALISTIC</span> -->
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'AICO'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">AICO</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="aico-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'GENT'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">PLAN<br />GENT</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="gent-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'GJIDI'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">GJIDI</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="gjidi-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'APOTI'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">APOTI</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="apoti-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'UPHOT'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">NIM-UPHOT</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="nimuphot-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="selectedPage = 'INVESTIGO'"
-                            class="h-full w-full flex items-center justify-center text-center">
-                            <span class="text-5xl font-raleway">INVESTIGO</span>
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="investigo-logo">
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col container mx-auto pt-20 pb-20" v-if="selectedPage === 'PROJECTS'">
+            <h1 class="w-full flex justify-center text-6xl pb-4 font-raleway">Awards</h1>
+            <div class="flex flex-1 w-full justify-center ">
+                <div class="title-line bg-black"></div>
+            </div>
+        </div>
+
+        <div class="flex flex-1 container mx-auto pb-24" v-if="selectedPage === 'PROJECTS'">
+            <div class="flex flex-1 w-full justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <div class="h-full w-full flex items-center justify-center text-center hover-logo" id="valbiocar-logo">
+                        </div>
+                    </div>
+                    <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <div class="h-full w-full flex items-center justify-center text-center hover-logo" id="bioevooc-logo">
+                            <span class="text-5xl font-raleway">BIOEVOOC</span>
+                        </div>
+                    </div>
+                    <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <div class="h-full w-full flex items-center justify-center text-center hover-logo" id="banvirte-logo">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +111,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-28 pb-16 font-raleway">AICO</h1>
-                <p class="flex w-full pb-36 font-avenir">Project description...</p>
+                <p class="flex w-full pb-36 font-avenir">The purpose of these grants is to promote the research activity of established R&D&I research groups that show growth potential to become reference groups.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
             <div class="w-2/6 flex border-l-2 border-gray-300">
@@ -212,3 +233,45 @@ export default {
     }
 };
 </script>
+<style>
+.hover-logo{
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid;
+}
+.hover-logo:hover{
+    background-color: rgba(107, 114, 128, 0.5);
+}
+#realistic-logo{
+    background-image: url(../../assets/01_Realistic.png);
+}
+#aico-logo{
+    background-image: url(../../assets/02_AICO.png);
+}
+#gent-logo{
+    background-image: url(../../assets/03_Plan-Gent.png);
+}
+#gjidi-logo{
+    background-image: url(../../assets/04_GJIDI.png);
+}
+#apoti-logo{
+    background-image: url(../../assets/05_Apoti.png);
+}
+#nimuphot-logo{
+    background-image: url(../../assets/06_NIM-UPHOT.png);
+}
+#investigo-logo{
+    background-image: url(../../assets/07_Investigo.png);
+}
+#valbiocar-logo{
+    background-image: url(../../assets/09_Valbiocar.png);
+}
+#bioevooc-logo{
+    background-image: none;
+}
+#banvirte-logo{
+    background-image: url(../../assets/10_Banvirte.png);
+}
+</style>

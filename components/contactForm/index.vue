@@ -12,12 +12,15 @@
                             Contact us
                         </h2>
 
-                        <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin">Av. de les Tres Creus, 2,
-                            46014
-                            València,
-                            Valencia, Spain</p>
+                        <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin">
+                            <a href="https://maps.app.goo.gl/pskgtbsiUACzY2Bd6" target="_blank">Av. de les Tres Creus, 2,
+                                46014
+                                València,
+                                Valencia, Spain</a></p>
                         <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a
                                 href="mailto:example@btelabvalencia@gmail.com font-thin">btelabvalencia@gmail.com</a></p>
+                        <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a
+                                href="mailto:example@btelab@fihguv.es font-thin">btelab@fihguv.es</a></p>
                         <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a href="tel:+963131893">963 131
                                 893</a></p>
 
