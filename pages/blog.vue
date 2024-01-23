@@ -2,7 +2,7 @@
 <template>
     <div class="flex flex-col w-full bg-back">
       <Nav />
-      
+      <Blog />
       <Footer />
     </div>
   </template>
