@@ -202,26 +202,26 @@ export default {
                 url: '/CRISTINA.jpg',
                 link: "",
             }, {
-                name: "Raquel ",
+                name: "Raquel Burgos Ríos",
                 title: "Anatomy & Pathology",
                 position: "Lab Technician",
                 url: '/RAQUEL.jpg',
-                link: "",
+                link: "https://www.linkedin.com/in/raquel-burgos-r%C3%ADos-2065b8212/",
             }],
             PhDCandidates: [{
-                name: "Armando Gonzalez",
+                name: "Armando González",
                 title: "MSC",
                 position: "PhD candidate",
                 url: '/ARMANDO.jpg',
                 link: "https://www.linkedin.com/in/armando-gonzález-muñoz-a8b1b6165",
             }, {
-                name: "Julia Gonzalez Cantó",
+                name: "Julia González Cantó",
                 title: "MSC",
                 position: "PhD candidate",
                 url: '/JULIAGONZALEZ.jpg',
                 link: "https://www.linkedin.com/in/julia-gonzález-cantó-b1a29b228",
             }, {
-                name: "Pepo Garcia Moreno",
+                name: "Pepo García Moreno",
                 title: "MD",
                 position: "PhD candidate",
                 url: '/PEPOGARCIA.jpg',
@@ -232,7 +232,13 @@ export default {
                 position: "PhD candidate",
                 url: '/JOSELUIS.jpg',
                 link: "https://reproduccionart.com/jose-luis-de-pablo/",
-            },],
+            }, {
+                name: "Daniel Sánchez García",
+                title: "MSC",
+                position: "PhD candidate",
+                url: '/DANIEL.jpg',
+                link: "https://www.linkedin.com/in/ing-mecanico-daniel-sanchez-garcia/",
+            }],
             graduates: [{
                 name: "Sara Mirabet Torres",
                 title: "MSC",
@@ -246,7 +252,7 @@ export default {
                 url: '/ALEX.jpg',
                 link: "https://www.linkedin.com/in/alejandro-lópez-cuquerella",
             }, {
-                name: "Andrea Sanchez Villena",
+                name: "Andrea Sánchez Villena",
                 title: "MSC",
                 position: "Industrial Design Engineer",
                 url: '/ANDREA.jpg',
@@ -264,7 +270,7 @@ export default {
                 url: '/ANUAR.jpg',
                 link: "https://www.linkedin.com/in/anuargimenez",
             }, {
-                name: "Alfonso Garcia Sanz",
+                name: "Alfonso García Sanz",
                 title: "MSC",
                 position: "Industrial Engineer",
                 url: '/ALFONSO.jpg',
@@ -308,7 +314,7 @@ export default {
                 url: '/MATTEO.jpg',
                 link: "https://www.linkedin.com/in/matteo-perra-b3a457241",
             }, {
-                name: "Andrea Martinez Vela",
+                name: "Andrea Martínez Vela",
                 title: "MSC",
                 position: "Chemist",
                 url: '/ANDREA-MARTINEZ.jpg',
