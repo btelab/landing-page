@@ -1,5 +1,6 @@
 <template>
-  <nav class="flex flex-1 flex-col sticky top-0 z-50 bg-black p-5 items-center md:items-start min-h-[8rem]">
+  <nav class="flex flex-1 flex-col sticky top-0 z-50 bg-black p-5 items-center md:items-start min-h-[8rem] navbar"
+    :class="{ 'navbar--hidden': !showNavbar }">
     <div class="flex w-full h-2 border-b border-white border-solid mb-4"></div>
     <div class="flex container mx-auto justify-between pb-10 md:pb-14 pl-3">
       <div class="flex-1 grid grid-cols-3 h-6 text-white">
@@ -41,22 +42,22 @@
               <nuxt-link :to="`${$router.options.base}#about`" title="About Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">About</nuxt-link>
 
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
-                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Team</nuxt-link>
-
               <nuxt-link :to="`${$router.options.base}research`" title="Research Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Research</nuxt-link>
+
+              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
+                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Team</nuxt-link>
 
               <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Projects</nuxt-link>
 
-              <nuxt-link :to="`${$router.options.base}awards`" title="Awards Section"
-                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Awards</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
+                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">News</nuxt-link>
 
               <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Publications</nuxt-link>
 
-              <a title="Google Maps Link" href="https://www.google.com/maps?cid=3154699187674670345" target="_blank"
+              <a title="Google Maps Link" href="https://maps.app.goo.gl/qB5t25Asfi2NTxdw6" target="_blank"
                 class="flex justify-center px-2 py-2 bg-black text-black border-b-2 border-black text-center align-middle ">
                 <nuxt-img class="w-6 h-6 bg-black" format="webp" src="/map.webp" alt="Google Map Link"
                   fetchpriority="high" />
@@ -67,36 +68,44 @@
             </div>
           </div>
 
-          <div class="hidden xl:flex text-sm tracking-bit">
+          <div class="hidden xl:flex text-sm tracking-bit pt-7">
             <div>
-              <nuxt-link :to="`${$router.options.base}`" title="Home" class="mx-2.5 font-avenir color-corvid">Home</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}`" title="Home"
+                class="mx-2.5 font-avenir color-corvid">Home</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}#about`" title="About Section" class="mx-2.5 font-avenir color-corvid">About</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}#about`" title="About Section"
+                class="mx-2.5 font-avenir color-corvid">About</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section" class="mx-2.5 font-avenir color-corvid">Team</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}research`" title="Research Section"
+                class="mx-2.5 font-avenir color-corvid">Research</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}research`" title="Research Section" class="mx-2.5 font-avenir color-corvid">Research</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
+                class="mx-2.5 font-avenir color-corvid">Team</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section" class="mx-2.5 font-avenir color-corvid">Projects</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section"
+                class="mx-2.5 font-avenir color-corvid">Projects</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}awards`" title="Awards Section" class="mx-2.5 font-avenir color-corvid">Awards</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
+                class="mx-2.5 font-avenir color-corvid">News</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section" class="mx-2.5 font-avenir color-corvid">Publications</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
+                class="mx-2.5 font-avenir color-corvid">Publications</nuxt-link>
             </div>
             <div class="w-10 ml-2 font-avenir color-corvid">
-              <a title="Google Maps Link" href="https://www.google.com/maps?cid=3154699187674670345" target="_blank">
+              <a title="Google Maps Link" href="https://maps.app.goo.gl/qB5t25Asfi2NTxdw6" target="_blank">
                 <nuxt-img class="w-6 h-6 bg-cover" format="webp" src="/map.webp" alt="Google Map Link"
                   fetchpriority="high" />
               </a>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}#contact`" title="Contact Section" class="mx-2.5 font-avenir color-corvid">Contact</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}#contact`" title="Contact Section"
+                class="mx-2.5 font-avenir color-corvid">Contact</nuxt-link>
             </div>
           </div>
         </div>
@@ -104,13 +113,24 @@
     </div>
   </nav>
 </template>
+<style>
+.navbar {
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s all ease-out;
+}
 
+.navbar.navbar--hidden {
+  transform: translate3d(0, -100%, 0);
+}
+</style>
 <script>
 export default {
   name: "Nav",
   data() {
     return {
       showMenu: false,
+      showNavbar: true,
+      lastScrollPosition: 0
     }
   },
   mounted() {
@@ -119,10 +139,12 @@ export default {
     console.log(this.router.options.base);
     console.log(router.options); */
 
-    document.addEventListener('click', this.handleDocumentClick)
+    document.addEventListener('click', this.handleDocumentClick);
+    window.addEventListener('scroll', this.onScroll);
   },
   beforeDestroy() {
-    document.removeEventListener('click', this.handleDocumentClick)
+    document.removeEventListener('click', this.handleDocumentClick);
+    window.removeEventListener('scroll', this.onScroll);
   },
   methods: {
     handleDocumentClick(e) {
@@ -130,6 +152,17 @@ export default {
       if (!menu.contains(event.target)) {
         this.showMenu = false;
       }
+    },
+    onScroll() {
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScrollPosition < 0) {
+        return;
+      }
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 60) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition;
+      this.lastScrollPosition = currentScrollPosition;
     }
   }
 };

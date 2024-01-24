@@ -19,13 +19,30 @@ export default {
     mounted() {
         let instagramAccessToken = this.$config.instagramAccessToken;
 
+        var responseClone;
         fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${instagramAccessToken}`)
-            .then(response => response.json())
-            .then(data => {
-                let posts = data.data.filter(post => post.media_type === "CAROUSEL_ALBUM" || post.media_type === "IMAGE");
-
-                this.posts = posts.slice(0, 4);
+        .then(function (response){
+            responseClone = response.clone();
+            return response.json();
+        })
+        .then(function (data){
+            let posts = data.data.filter(post => post.media_type === "CAROUSEL_ALBUM" || post.media_type === "IMAGE");
+            this.posts = posts.slice(0, 4);
+        }, function (rejectionReason){
+            console.log('Error parsing JSON from response:' , rejectionReason, responseClone);
+            responseClone.text()
+            .then(function (bodyText){
+                console.log('Received the following instead of valid JSON:', bodyText);
             });
+        });
+
+        // fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${instagramAccessToken}`)
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         let posts = data.data.filter(post => post.media_type === "CAROUSEL_ALBUM" || post.media_type === "IMAGE");
+
+        //         this.posts = posts.slice(0, 4);
+        //     });
     },
     data() {
         return {

@@ -5,7 +5,7 @@
 
       <Publications />
       
-      <FooterBlank />
+      <Footer />
     </div>
   </template>
   

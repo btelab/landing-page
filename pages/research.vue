@@ -6,7 +6,7 @@
 
     <Research />
 
-    <FooterBlank />
+    <Footer />
   </div>
 </template>
   

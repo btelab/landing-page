@@ -4,7 +4,7 @@
       <Nav />
       <Awards />
 
-      <FooterBlank />
+      <Footer />
     </div>
   </template>
   
