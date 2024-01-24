@@ -63,7 +63,6 @@
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="handleClick('SAIBSAL')"
                             class="h-full w-full flex items-center justify-center text-center hover-logo" id="saibsal-logo">
-                            <span class="text-5xl font-raleway">SAIBSAL</span>
                         </a>
                     </div>
                 </div>
@@ -106,7 +105,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">REALISTIC</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">The main focus of REALISTIC is the 3D processing
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The main focus of REALISTIC is the 3D processing
                     and creation of realistic anatomical models and orthoses
                     of complex geometry with novel polymeric materials. This is intended to enable personalized surgical
                     planning and to reduce the side effects
@@ -128,8 +127,8 @@
                     <img src="~/assets/realistic_logo.webp" alt="Realistic" class="object-none object-center w-64" />
                 </div>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_realistic.png" alt="Logos Realistic project">
+            <div class="w-2/6 border-l-2 border-gray-300"><!--flex-->
+                <img src="~/assets/logos_realistic.png" alt="Logos Realistic project" class="relative top-40">
             </div>
         </div>
 
@@ -144,13 +143,13 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">AICO</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">The purpose of these grants is to promote the
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The purpose of these grants is to promote the
                     research activity of established R&D&I research groups
                     that show growth potential to become reference groups.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_aico.png" alt="Logos AICO project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_aico.png" alt="Logos AICO project" class="relative top-40">
             </div>
         </div>
 
@@ -165,7 +164,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">PLAN GENT</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">Worldwide, 300 million patients with severe
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Worldwide, 300 million patients with severe
                     wounds, including deep burns and chronic wounds such as foot ulcers
                     and pressure sores, undergo surgery annually. Unfortunately, this number will continue growing due to
                     the increase of life expectancy and chronic
@@ -194,8 +193,8 @@
                     and discover the cargo molecules involved (3) to pre-vascularize the skin substitute.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_plangent.png" alt="Logos Plan Gent project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_plangent.png" alt="Logos Plan Gent project" class="relative top-40">
             </div>
         </div>
 
@@ -210,7 +209,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">GJIDI</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">Call of Order 3/2018 of the Regional Ministry of
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Call of Order 3/2018 of the Regional Ministry of
                     Education, Research, Culture and Sport, within the
                     framework of the National Youth Guarantee System and co-financed by the European Social Fund and the
                     Youth Employment Initiative, whose main
@@ -229,8 +228,8 @@
                     research projects and the optimization of facilities and services related to science and technology.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_gjidi.png" alt="Logos GJIDI project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_gjidi.png" alt="Logos GJIDI project" class="relative top-40">
             </div>
         </div>
 
@@ -246,7 +245,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">APOTI</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">The aim of the project is to analyze the
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The aim of the project is to analyze the
                     biosafety of breast implants by comparing different types
                     of prostheses (silicone gel-filled PIP implants, non-PIP silicone gel-filled breast implants and
                     saline-filled implants). The inflammatory
@@ -258,8 +257,8 @@
                     risks derived from the use of PIP prostheses.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_apoti.png" alt="Logos APOTI project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_apoti.png" alt="Logos APOTI project" class="relative top-40">
             </div>
         </div>
 
@@ -274,7 +273,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">NIM-UPHOT</h1>
-                <p class="flex w-full pb-36 font-avenir pr-8 text-justify">Infertility is a pathological condition affecting
+                <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Infertility is a pathological condition affecting
                     one eighth of women and one tenth of men worldwide
                     and accentuates the declining European birth rates. Assisted reproductive techniques (ART) have been
                     developed to treat infertility, and in vitro
@@ -299,8 +298,8 @@
                     in the functionality of the routinary experimental techniques. </p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_nimuphot.png" alt="Logos NIM-UPHOT project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_nimuphot.png" alt="Logos NIM-UPHOT project" class="relative top-40">
             </div>
         </div>
 
@@ -315,7 +314,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">INVESTIGO</h1>
-                <p class="flex w-full pb-36 font-avenir pr-4 text-justify">From the Department of Innovation, Universities,
+                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">From the Department of Innovation, Universities,
                     Science and Digital Society, funding has been obtained
                     for a total of four contracts with the "Programa Investigo", which aims to hire young researchers,
                     technologists and technical staff in the field
@@ -331,8 +330,8 @@
                     progress.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project" class="relative top-40">
             </div>
         </div>
 
@@ -347,7 +346,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">BANVIRTE</h1>
-                <p class="flex w-full pb-36 font-avenir pr-4 text-justify">BANVIRTE will create a database through the
+                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">BANVIRTE will create a database through the
                     digitization of tissues stored in the Tissue and Cell Bank of the Valencian Community with the aim of
                     optimizing the process of choosing the most suitable graft prior to transplantation. The collaboration
                     between the Tissue and Cell Bank of the Valencian Community and BTELab falls within this strategic
@@ -361,8 +360,9 @@
                     satisfaction of patients and healthcare professionals.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/Logo_Fundación.png" alt="Logo Fundación Investigación HGUV" class="relative top-40 m-8">
+                <img src="~/assets/Logo_Consorcio.png" alt="Logo Consorcio HGUV" class="relative top-48 m-8">
             </div>
         </div>
 
@@ -377,7 +377,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">ATILA</h1>
-                <p class="flex w-full pb-36 font-avenir pr-4 text-justify">ATiLA: Pioneering advances in metal additive
+                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">ATiLA: Pioneering advances in metal additive
                     manufacturing for personalized health care. The ATiLA project is presented as a model of innovation in
                     the field of metal additive manufacturing (MAM), focusing specifically on the technique of wire-based
                     laser additive manufacturing (WLAM) or wire laser metal deposition (LWMD). The goal is not only to
@@ -399,8 +399,11 @@
                     industrial design.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8">
+                <img src="~/assets/Logo_Ministeriociencia.png" alt="Logo Ministerio Ciencia" class="relative top-48 m-8">
+                <img src="~/assets/Logo_NextGeneration.png" alt="Logo Next Generation" class="relative top-56 m-8">
+                <img src="~/assets/Logo_AEI.png" alt="Logo AEI" class="relative h-40 top-64 left-24 m-8">
             </div>
         </div>
 
@@ -415,7 +418,7 @@
                 </a>
 
                 <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">SAIBSAL</h1>
-                <p class="flex w-full pb-36 font-avenir pr-4 text-justify">SAIBSAL, managed by FIHGUV and integrated into
+                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">SAIBSAL, managed by FIHGUV and integrated into
                     the ISCIII platform, is a benchmark of excellence in biomedical research. The main mission is to promote
                     scientific, health and biomedical research through the provision of cutting-edge services.<br><br>Within
                     the scope of the services offered by SAIBSAL, the fields of 3D printing and bioprinting stand out,
@@ -430,8 +433,11 @@
                     ensure the continuity of our activities and resources.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
-            <div class="w-2/6 flex border-l-2 border-gray-300">
-                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project">
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8">
+                <img src="~/assets/Logo_ISCIII.png" alt="Logo ISCIII" class="relative top-48 m-8">
+                <img src="~/assets/Logo_Ministeriociencia.png" alt="Logo Ministerio Ciencia" class="relative top-56 m-8">
+                <img src="~/assets/Logo_cofinanciadoporUE.png" alt="Logo AEI" class="relative top-64 m-8">
             </div>
         </div>
     </div>
@@ -505,7 +511,7 @@ export default {
 }
 
 #saibsal-logo {
-    background-image: none;
+    background-image: url(../../assets/10_Saibsal.png);
 }
 
 #valbiocar-logo {
