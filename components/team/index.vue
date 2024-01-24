@@ -158,17 +158,6 @@ const maleStatic = '/ICON-MALE.png';
 const femaleStatic = '/ICON-FEMALE.png';
 export default {
     name: "Team",
-    methods: {
-        handleClick(event, image) {
-            event.preventDefault();
-
-            if (!image.link.length) {
-                return; // do nothing if the URL is empty
-            } else {
-                window.open(image.link, "_blank"); // open in new window if URL is not empty
-            }
-        }
-    },
     data() {
         return {
             team: [{
@@ -321,6 +310,17 @@ export default {
                 link: "https://www.linkedin.com/in/andrea-martínez-vela-66251b167",
             }]
         }
-    }
+    },
+    methods: {
+        handleClick(event, image) {
+            event.preventDefault();
+
+            if (!image.link.length) {
+                return; // do nothing if the URL is empty
+            } else {
+                window.open(image.link, "_blank"); // open in new window if URL is not empty
+            }
+        }
+    },
 };
 </script>
