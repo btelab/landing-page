@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects", {data:[{_img:{"/_ipx/f_webp/logo_blanco.png":"\u002F_nuxt\u002Fimage\u002F21c600.webp","/_ipx/f_webp/map.webp":"\u002F_nuxt\u002Fimage\u002F1dbf7f.webp"}}],fetch:{},mutations:void 0});
