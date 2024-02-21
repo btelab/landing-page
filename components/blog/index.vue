@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col bg-white">
-        <div class="flex flex-col container mx-auto pt-20 pb-20">
-            <h1 class="w-full flex justify-center text-6xl pb-4 font-raleway">LinkedIn Feed</h1>
-            <!-- <div v-for="post in linkedInFeed" :key="post.id">{{ post.text }}</div> -->
+        <div class="flex flex-col container mx-auto pt-8 pb-8">
+            <h1 class="w-full flex justify-center text-6xl pb-4 font-raleway">Blog</h1>
+            <!-- <!- <div v-for="post in linkedInFeed" :key="post.id">{{ post.text }}</div> ->
             <div class="flex flex-1 w-full justify-center ">
                 <div class="title-line bg-black"></div>
-            </div>
+            </div> -->
         </div>
         <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25351207' width='100%'
             height='1000'></iframe>

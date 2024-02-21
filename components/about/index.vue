@@ -2,7 +2,7 @@
     <div id="about">
 
 
-        <div class="w-full flex flex-col bg-black pt-48 pb-28">
+        <div class="w-full flex flex-col bg-black pt-16 pb-8">
             <div class="container mx-auto w-2/3">
                 <div class="flex flex-col text-center text-white">
                     <h2 class="font-futura text-4xl font-semibold md:text-5xl pb-10">ABOUT BTELab</h2>

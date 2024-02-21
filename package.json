@@ -13,13 +13,10 @@
     "release": "npm run generate:gh-pages && npm run deploy"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.15.1",
     "core-js": "^3.15.1",
-    "leaflet": "^1.9.3",
     "nuxt": "^2.15.7",
     "nuxt-leaflet": "^0.0.27",
-    "vue-slick": "^1.2.0",
-    "vue2-leaflet": "^2.7.1"
+    "vue-slick": "^1.2.0"
   },
   "devDependencies": {
     "@nuxt/image": "^0.7.1",

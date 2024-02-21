@@ -1,7 +1,7 @@
 <template>
     <div id="contact">
 
-        <div class="w-full flex flex-col bg-white pt-48 pb-20">
+        <div class="w-full flex flex-col bg-white pt-20 pb-20">
             <div class="container mx-auto px-4">
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -17,8 +17,6 @@
                                 46014
                                 València,
                                 Valencia, Spain</a></p>
-                        <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a
-                                href="mailto:example@btelabvalencia@gmail.com font-thin">btelabvalencia@gmail.com</a></p>
                         <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a
                                 href="mailto:example@btelab@fihguv.es font-thin">btelab@fihguv.es</a></p>
                         <p class="font-avenir text-sm tracking-bit antialiased mb-8 font-thin"><a href="tel:+963131893">963 131
@@ -157,7 +155,7 @@ export default {
 form {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 

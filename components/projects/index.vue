@@ -7,19 +7,17 @@
             </div>
         </div>
 
-        <div class="flex flex-1 container mx-auto pb-20" v-if="selectedPage === 'PROJECTS'">
+        <div class="flex flex-1 container mx-auto pb-8" v-if="selectedPage === 'PROJECTS'">
             <div class="flex flex-1 w-full justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('REALISTIC')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo"
-                            id="realistic-logo">
-                            <!-- <span class="text-5xl font-raleway">REALISTIC</span> -->
+                        <a href="#" @click.prevent="handleClick('SAIBSAL')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="saibsal-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('AICO')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="aico-logo">
+                        <a href="#" @click.prevent="handleClick('ATILA')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="atila-logo">
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
@@ -28,8 +26,24 @@
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <a href="#" @click.prevent="handleClick('INVESTIGO')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="investigo-logo">
+                        </a>
+                    </div>
+                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <a href="#" @click.prevent="handleClick('AICO')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="aico-logo">
+                        </a>
+                    </div>
+                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="handleClick('GJIDI')"
                             class="h-full w-full flex items-center justify-center text-center hover-logo" id="gjidi-logo">
+                        </a>
+                    </div>
+                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <a href="#" @click.prevent="handleClick('REALISTIC')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="realistic-logo">
+                            <!-- <span class="text-5xl font-raleway">REALISTIC</span> -->
                         </a>
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
@@ -39,30 +53,7 @@
                     </div>
                     <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <a href="#" @click.prevent="handleClick('UPHOT')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo"
-                            id="nimuphot-logo">
-                        </a>
-                    </div>
-                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('INVESTIGO')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo"
-                            id="investigo-logo">
-                        </a>
-                    </div>
-                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('BANVIRTE')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo"
-                            id="banvirte-logo">
-                        </a>
-                    </div>
-                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('ATILA')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="atila-logo">
-                        </a>
-                    </div>
-                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
-                        <a href="#" @click.prevent="handleClick('SAIBSAL')"
-                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="saibsal-logo">
+                            class="h-full w-full flex items-center justify-center text-center hover-logo" id="nimuphot-logo">
                         </a>
                     </div>
                 </div>
@@ -79,6 +70,12 @@
         <div class="flex flex-1 container mx-auto pb-20" v-if="selectedPage === 'PROJECTS'">
             <div class="flex flex-1 w-full justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="place-self-auto h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
+                        <a href="#" @click.prevent="handleClick('BANVIRTE')"
+                            class="h-full w-full flex items-center justify-center text-center hover-logo"
+                            id="banvirte-logo">
+                        </a>
+                    </div>
                     <div class="w-80 h-80 bg-grey-green transition duration-500 hover:bg-gray-500">
                         <div class="h-full w-full flex items-center justify-center text-center hover-logo"
                             id="valbiocar-logo">
@@ -104,7 +101,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">REALISTIC</h1>
+                <h1 class="w-full flex text-5xl sm:text-base pt-16 pb-16 font-raleway">REALISTIC</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The main focus of REALISTIC is the 3D processing
                     and creation of realistic anatomical models and orthoses
                     of complex geometry with novel polymeric materials. This is intended to enable personalized surgical
@@ -123,8 +120,8 @@
                     of IT3D.</p>
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
 
-                <div class="flex flex-1 items-center justify-center">
-                    <img src="~/assets/realistic_logo.webp" alt="Realistic" class="object-none object-center w-64" />
+                <div class="flex flex-1 items-center">
+                    <img src="~/assets/realistic_logo.webp" alt="Realistic" class="object-center w-64" />
                 </div>
             </div>
             <div class="w-2/6 border-l-2 border-gray-300"><!--flex-->
@@ -142,7 +139,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">AICO</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">AICO</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The purpose of these grants is to promote the
                     research activity of established R&D&I research groups
                     that show growth potential to become reference groups.</p>
@@ -163,7 +160,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">PLAN GENT</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">PLAN GENT</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Worldwide, 300 million patients with severe
                     wounds, including deep burns and chronic wounds such as foot ulcers
                     and pressure sores, undergo surgery annually. Unfortunately, this number will continue growing due to
@@ -194,7 +191,7 @@
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
             <div class="w-2/6 border-l-2 border-gray-300">
-                <img src="~/assets/logos_plangent.png" alt="Logos Plan Gent project" class="relative top-40">
+                <img src="~/assets/logo_conselleria-sanidad_whitebackround.png" alt="Logos Plan Gent project" class="relative top-40 m-8">
             </div>
         </div>
 
@@ -208,7 +205,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">GJIDI</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">GJIDI</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Call of Order 3/2018 of the Regional Ministry of
                     Education, Research, Culture and Sport, within the
                     framework of the National Youth Guarantee System and co-financed by the European Social Fund and the
@@ -244,7 +241,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">APOTI</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">APOTI</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The aim of the project is to analyze the
                     biosafety of breast implants by comparing different types
                     of prostheses (silicone gel-filled PIP implants, non-PIP silicone gel-filled breast implants and
@@ -272,7 +269,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">NIM-UPHOT</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">NIM-UPHOT</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">Infertility is a pathological condition affecting
                     one eighth of women and one tenth of men worldwide
                     and accentuates the declining European birth rates. Assisted reproductive techniques (ART) have been
@@ -313,7 +310,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">INVESTIGO</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">INVESTIGO</h1>
                 <p class="flex w-full pb-28 font-avenir pr-4 text-justify">From the Department of Innovation, Universities,
                     Science and Digital Society, funding has been obtained
                     for a total of four contracts with the "Programa Investigo", which aims to hire young researchers,
@@ -335,37 +332,6 @@
             </div>
         </div>
 
-        <div class="flex container mx-auto pt-20 pb-20 h-auto md:w-2/3" v-if="selectedPage === 'BANVIRTE'">
-            <div class="w-4/6 flex flex-col h-auto">
-                <a href="#" @click.prevent="selectedPage = 'PROJECTS'" title="Go Back">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-10 h-10">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </a>
-
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">BANVIRTE</h1>
-                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">BANVIRTE will create a database through the
-                    digitization of tissues stored in the Tissue and Cell Bank of the Valencian Community with the aim of
-                    optimizing the process of choosing the most suitable graft prior to transplantation. The collaboration
-                    between the Tissue and Cell Bank of the Valencian Community and BTELab falls within this strategic
-                    framework, where the aim is to take advantage of the infrastructure available at the Fundación del
-                    Hospital General Universitario de Valencia for the management of anatomical images, in order to generate
-                    a "virtual database". As a result, it would be possible to add two fundamental parameters to the basic
-                    concept of surgery: personalization of treatment and maximum precision.<br><br>This challenge represents
-                    a novelty at international level with a notable impact in the field of tissue transplantation,
-                    incorporating a pioneering environment of "personalized precision surgery". Therefore, as described
-                    above, this should be understood as an improvement in the quality of medical services and greater
-                    satisfaction of patients and healthcare professionals.</p>
-                <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
-            </div>
-            <div class="w-2/6 border-l-2 border-gray-300">
-                <img src="~/assets/Logo_Fundación.png" alt="Logo Fundación Investigación HGUV" class="relative top-40 m-8">
-                <img src="~/assets/Logo_Consorcio.png" alt="Logo Consorcio HGUV" class="relative top-48 m-8">
-            </div>
-        </div>
-
         <div class="flex container mx-auto pt-20 pb-20 h-auto md:w-2/3" v-if="selectedPage === 'ATILA'">
             <div class="w-4/6 flex flex-col h-auto">
                 <a href="#" @click.prevent="selectedPage = 'PROJECTS'" title="Go Back">
@@ -376,7 +342,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">ATILA</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">ATILA</h1>
                 <p class="flex w-full pb-28 font-avenir pr-4 text-justify">ATiLA: Pioneering advances in metal additive
                     manufacturing for personalized health care. The ATiLA project is presented as a model of innovation in
                     the field of metal additive manufacturing (MAM), focusing specifically on the technique of wire-based
@@ -417,7 +383,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-6xl pt-16 pb-16 font-raleway">SAIBSAL</h1>
+                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">SAIBSAL</h1>
                 <p class="flex w-full pb-28 font-avenir pr-4 text-justify">SAIBSAL, managed by FIHGUV and integrated into
                     the ISCIII platform, is a benchmark of excellence in biomedical research. The main mission is to promote
                     scientific, health and biomedical research through the provision of cutting-edge services.<br><br>Within
@@ -434,10 +400,41 @@
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
             <div class="w-2/6 border-l-2 border-gray-300">
-                <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8">
+                <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8 ">
                 <img src="~/assets/Logo_ISCIII.png" alt="Logo ISCIII" class="relative top-48 m-8">
                 <img src="~/assets/Logo_Ministeriociencia.png" alt="Logo Ministerio Ciencia" class="relative top-56 m-8">
                 <img src="~/assets/Logo_cofinanciadoporUE.png" alt="Logo AEI" class="relative top-64 m-8">
+            </div>
+        </div>
+
+        <div class="flex container mx-auto pt-20 pb-20 h-auto md:w-2/3" v-if="selectedPage === 'BANVIRTE'">
+            <div class="w-4/6 flex flex-col h-auto">
+                <a href="#" @click.prevent="selectedPage = 'PROJECTS'" title="Go Back">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+
+                <h1 class="w-full flex  text-5xl pt-16 pb-16 font-raleway">BANVIRTE</h1>
+                <p class="flex w-full pb-28 font-avenir pr-4 text-justify">BANVIRTE will create a database through the
+                    digitization of tissues stored in the Tissue and Cell Bank of the Valencian Community with the aim of
+                    optimizing the process of choosing the most suitable graft prior to transplantation. The collaboration
+                    between the Tissue and Cell Bank of the Valencian Community and BTELab falls within this strategic
+                    framework, where the aim is to take advantage of the infrastructure available at the Fundación del
+                    Hospital General Universitario de Valencia for the management of anatomical images, in order to generate
+                    a "virtual database". As a result, it would be possible to add two fundamental parameters to the basic
+                    concept of surgery: personalization of treatment and maximum precision.<br><br>This challenge represents
+                    a novelty at international level with a notable impact in the field of tissue transplantation,
+                    incorporating a pioneering environment of "personalized precision surgery". Therefore, as described
+                    above, this should be understood as an improvement in the quality of medical services and greater
+                    satisfaction of patients and healthcare professionals.</p>
+                <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
+            </div>
+            <div class="w-2/6 border-l-2 border-gray-300">
+                <img src="~/assets/Logo_Fundación.png" alt="Logo Fundación Investigación HGUV" class="relative top-40 m-8">
+                <img src="~/assets/Logo_Consorcio.png" alt="Logo Consorcio HGUV" class="relative top-48 m-8">
             </div>
         </div>
     </div>

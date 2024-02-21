@@ -45,18 +45,18 @@
               <nuxt-link :to="`${$router.options.base}research`" title="Research Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Research</nuxt-link>
 
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
+              <nuxt-link :to="`${$router.options.base}team`" title="Team Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Team</nuxt-link>
 
               <nuxt-link :to="`${$router.options.base}projects`" title="Projects Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Projects</nuxt-link>
 
-              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
-                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">News</nuxt-link>
-
               <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
                 class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">Publications</nuxt-link>
-
+                
+              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
+                class="font-avenir text-sm block px-2 py-2 bg-white text-black border-b-2 border-black text-center hover:bg-black hover:text-white hover:border-white hover:border-2">News</nuxt-link>
+                
               <a title="Google Maps Link" href="https://maps.app.goo.gl/qB5t25Asfi2NTxdw6" target="_blank"
                 class="flex justify-center px-2 py-2 bg-black text-black border-b-2 border-black text-center align-middle ">
                 <nuxt-img class="w-6 h-6 bg-black" format="webp" src="/map.webp" alt="Google Map Link"
@@ -82,7 +82,7 @@
                 class="mx-2.5 font-avenir color-corvid">Research</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}#team`" title="Team Section"
+              <nuxt-link :to="`${$router.options.base}team`" title="Team Section"
                 class="mx-2.5 font-avenir color-corvid">Team</nuxt-link>
             </div>
             <div>
@@ -90,12 +90,12 @@
                 class="mx-2.5 font-avenir color-corvid">Projects</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
-                class="mx-2.5 font-avenir color-corvid">News</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
+              class="mx-2.5 font-avenir color-corvid">Publications</nuxt-link>
             </div>
             <div>
-              <nuxt-link :to="`${$router.options.base}publications`" title="Publications Section"
-                class="mx-2.5 font-avenir color-corvid">Publications</nuxt-link>
+              <nuxt-link :to="`${$router.options.base}blog`" title="News Section"
+                class="mx-2.5 font-avenir color-corvid">News</nuxt-link>
             </div>
             <div class="w-10 ml-2 font-avenir color-corvid">
               <a title="Google Maps Link" href="https://maps.app.goo.gl/qB5t25Asfi2NTxdw6" target="_blank">
@@ -154,7 +154,7 @@ export default {
       }
     },
     onScroll() {
-      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+      const currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
       if (currentScrollPosition < 0) {
         return;
       }

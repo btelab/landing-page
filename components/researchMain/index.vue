@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mx-auto md:px-20 bg-black text-white text-center pt-28">
+    <div class="w-full mx-auto md:px-20 bg-black text-white text-center pb-8">
 
         <h2 class="flex-1 w-full font-futura text-4xl md:text-5xl font-semibold tracking-mid pb-10 md:pb-12">RESEARCH</h2>
         
