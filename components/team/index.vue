@@ -151,6 +151,7 @@
         /*min-height: 200px;*/
         max-width: 100%;
         height: auto;
+        left: 0px;
     }
 }
 </style>

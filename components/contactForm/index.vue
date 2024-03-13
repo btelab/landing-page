@@ -1,7 +1,7 @@
 <template>
     <div id="contact">
 
-        <div class="w-full flex flex-col bg-white pt-20 pb-20">
+        <div class="w-full flex flex-col bg-white pt-36 pb-20">
             <div class="container mx-auto px-4">
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

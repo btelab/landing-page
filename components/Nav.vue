@@ -140,11 +140,11 @@ export default {
     console.log(router.options); */
 
     document.addEventListener('click', this.handleDocumentClick);
-    window.addEventListener('scroll', this.onScroll);
+    //window.addEventListener('scroll', this.onScroll);
   },
   beforeDestroy() {
     document.removeEventListener('click', this.handleDocumentClick);
-    window.removeEventListener('scroll', this.onScroll);
+    //window.removeEventListener('scroll', this.onScroll);
   },
   methods: {
     handleDocumentClick(e) {

@@ -1,9 +1,9 @@
 <template>
   <div class="w-full flex flex-col bg-white pt-20">
-    <div class="container md:mx-auto md:w-3/4 xl:w-3/5 bg-white">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-6 pb-10 justify-items-center">
+    <div class="md:mx-auto md:w-3/4 xl:mx-auto bg-white pl-4 pr-4 sm:pl-0 sm:pr-0">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-6 pb-10 justify-items-center">
         <div v-for="(image, index) in images" :key="index" class="h-4/5 mx-auto">
-          <img :src="image.src" :alt="image.alt" :width="image.width" :height="image.height" class="w-full h-full object-cover sm:object-scale-down">
+          <img :src="image.src" :alt="image.alt" :width="image.width" :height="image.height" class="w-full h-full object-scale-down">
         </div> 
       </div>
     </div>
@@ -44,7 +44,7 @@ export default {
           height: 'auto'
         }, {
           src: require('@/assets/logo-avi.png'),
-          alt: 'AVI. Agéncia Valenciana de la Innovació',
+          alt: 'AVI. Agència Valenciana de la Innovació',
           width: '80%',
           height: 'auto'
         },]

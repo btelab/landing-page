@@ -101,7 +101,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex text-5xl sm:text-base pt-16 pb-16 font-raleway">REALISTIC</h1>
+                <h1 class="w-full flex text-4xl sm:text-5xl pt-16 pb-16 font-raleway">REALISTIC</h1>
                 <p class="flex w-full pb-28 font-avenir pr-8 text-justify">The main focus of REALISTIC is the 3D processing
                     and creation of realistic anatomical models and orthoses
                     of complex geometry with novel polymeric materials. This is intended to enable personalized surgical
@@ -310,7 +310,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex text-5xl pt-16 pb-16 font-raleway">INVESTIGO</h1>
+                <h1 class="w-full flex text-4xl sm:text-5xl pt-16 pb-16 font-raleway">INVESTIGO</h1>
                 <p class="flex w-full pb-28 font-avenir pr-4 text-justify">From the Department of Innovation, Universities,
                     Science and Digital Society, funding has been obtained
                     for a total of four contracts with the "Programa Investigo", which aims to hire young researchers,
@@ -417,7 +417,7 @@
                     </svg>
                 </a>
 
-                <h1 class="w-full flex  text-5xl pt-16 pb-16 font-raleway">BANVIRTE</h1>
+                <h1 class="w-full flex text-4xl sm:text-5xl pt-16 pb-16 font-raleway">BANVIRTE</h1>
                 <p class="flex w-full pb-28 font-avenir pr-4 text-justify">BANVIRTE will create a database through the
                     digitization of tissues stored in the Tissue and Cell Bank of the Valencian Community with the aim of
                     optimizing the process of choosing the most suitable graft prior to transplantation. The collaboration

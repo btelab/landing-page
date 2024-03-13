@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mx-auto md:px-20 bg-black text-white text-center pb-8">
+    <div class="w-full mx-auto md:px-20 bg-black text-white text-center pb-16">
 
         <h2 class="flex-1 w-full font-futura text-4xl md:text-5xl font-semibold tracking-mid pb-10 md:pb-12">RESEARCH</h2>
         
@@ -21,7 +21,7 @@
 
                 <div class="flex-1 flex flex-col">
                     <h4 class="font-futura text-2xl font-semibold h-28 xl:h-36 pl-10 pr-10 pb-4 xl:pb-10">3D
-                        BIOPRINTING<br />AND ADDITIVE<br />MANUFACTURING</h4>
+                        BIOPRINTING,<br />ADDITIVE<br />MANUFACTURING AND <br/>XR TECHNOLOGIES</h4>
                     <div class="w-full text-center h-20 pb-36 md:pb-0">
                         <router-link to="/research#bioprinting"
                             title="3D Bioprinting and Additive Manufacturing"
@@ -33,7 +33,7 @@
 
                 <div class="flex-1 flex flex-col">
                     <h4 class="font-futura text-2xl font-semibold h-20 xl:h-36 pl-10 pr-10 pb-4 xl:pb-10">STEM CELL
-                        BIOLOGY AND<br />TISSUE ENGINEERING</h4>
+                        BIOLOGY AND TISSUE ENGINEERING</h4>
                     <div class="w-full text-center h-20 pb-36 md:pb-0">
                         <router-link to="/research#stem-cell"
                             title="Stem Cell Biology and Tissue Engineering"
