@@ -328,7 +328,8 @@
                 <p class="font-avenir font-semibold">IP: Carmen Escobedo Lucea</p>
             </div>
             <div class="w-2/6 border-l-2 border-gray-300">
-                <img src="~/assets/logos_investigo.png" alt="Logos INVESTIGO project" class="relative top-40">
+                <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8">
+                <img src="~/assets/logo_conselleria-sanidad_whitebackround.png" alt="Logos Plan Gent project" class="relative top-48 m-8">
             </div>
         </div>
 
@@ -369,7 +370,7 @@
                 <img src="~/assets/logo-plan-de-recuperacion.png" alt="Logo Plan Recuperación" class="relative top-40 m-8">
                 <img src="~/assets/Logo_Ministeriociencia.png" alt="Logo Ministerio Ciencia" class="relative top-48 m-8">
                 <img src="~/assets/Logo_NextGeneration.png" alt="Logo Next Generation" class="relative top-56 m-8">
-                <img src="~/assets/Logo_AEI.png" alt="Logo AEI" class="relative h-40 top-64 left-24 m-8">
+                <img src="~/assets/Logo_AEI.png" alt="Logo AEI" class="relative h-40 top-64 m-8">
             </div>
         </div>
 
