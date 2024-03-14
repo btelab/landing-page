@@ -1,6 +1,6 @@
 <template>
     <div id="team">
-        <div class="w-full flex flex-col bg-black pt-48 pb-28">
+        <div class="w-full flex flex-col bg-black pt-14 pb-28">
             <div class="mx-auto md:w-4/5 px-4 md:px-0">
                 <div class="flex flex-col text-center text-white">
                     <h2 class="font-futura text-4xl md:text-5xl font-semibold pb-16 tracking-mid">TEAM</h2>
@@ -148,7 +148,10 @@
 /* Set a minimum height for the images to prevent them from being too small on small screens */
 @media (max-width: 640px) {
     .relative {
-        min-height: 200px;
+        /*min-height: 200px;*/
+        max-width: 100%;
+        height: auto;
+        left: 0px;
     }
 }
 </style>
