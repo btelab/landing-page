@@ -176,11 +176,11 @@ export default {
                 url: '/ANDRES.jpg',
                 link: "https://cvn.fecyt.es/0000-0003-0413-4965",
             }, {
-                name: "Néstor Villalba Rojas",
-                title: "MSC Biotechnology",
+                name: "Susana González Granero",
+                title: "",
                 position: "Lab Manager",
-                url: '/NESTOR.jpg',
-                link: "https://www.linkedin.com/in/nestorvillalbarojas",
+                url: '/SUSANA.jpg',
+                link: "https://www.researchgate.net/profile/Susana-Gonzalez-Granero",
             }, {
                 name: "Neus Alemany Ortolá",
                 title: "MSC Biotechnology",
@@ -237,6 +237,12 @@ export default {
                 position: "Biologist",
                 url: '/SARA.jpg',
                 link: "https://www.linkedin.com/in/saramirabettorres",
+            }, {
+                name: "Néstor Villalba Rojas",
+                title: "MSC",
+                position: "Biotechnologist",
+                url: '/NESTOR.jpg',
+                link: "https://www.linkedin.com/in/nestorvillalbarojas",
             }, {
                 name: "Alejandro López Cuquerella",
                 title: "MSC",
