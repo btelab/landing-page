@@ -6,7 +6,7 @@
                     <h2 class="font-futura text-4xl md:text-5xl font-semibold pb-16 tracking-mid">TEAM</h2>
                 </div>
 
-                <div class="grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
                     <div v-for="(image, index) in team" :key="index" class="relative">
                         <a :href="image.link" :title="image.name" @click.prevent="handleClick($event, image)">
 
