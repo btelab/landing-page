@@ -9,21 +9,19 @@
 
                 <div class="flex flex-col container mx-auto border-l-2 border-black pl-10">
                     <div class="font-avenir font-light color-corvid text-sm tracking-bit">
-                        <p class="font-avenir color-corvid pb-6">Mirabet Arrébola J Briones M P Bosch M D Ocete A Melero S Mirabet L Aranda A J
-                            Guillot L
-                            R Larrea C
-                            Escobedo-Lucea J Pemán, V. M., Arrébola, M., Briones, J., Bosch Á J Pemán, M. P., Ocete Á L
-                            Aranda,
-                            M. D., Melero Á J Guillot, A. A., & Mirabet Á Escobedo-Lucea, S. C. (2021). <span
-                                class="font-bold">Microbiological
-                                assessment of arterial allografts processed in a tissue bank. Cell and Tissue
-                                Banking</span>,
-                            22, 539–549.
+                        <p class="font-avenir color-corvid pb-6">Giménez-El-Amrani, A. Sanz-Garcia, A., Villalba-Rojas, N., Mirabet, 
+                            V., Valverde-Navarro, A., & Escobedo-Lucea, C. (2024). <span class="font-bold">The untapped potential of 3D virtualization using high resolution
+                                scanner-bases and photogrammetry technologies for Bone Bank Digital Modeling. </span>Computers in Biology and Medicine, 183, 109340.
+                            <a target="_blank" href="https://doi.org/10.1016/j.compbiomed.2024.109340" class="text-greygreen hover:text-gray-500">Read more</a>
+                        </p>
+                        <p class="font-avenir color-corvid pb-6">Mirabet, V., Arrébola, M., Briones, J., Bosch, M.P., Ocete, M. D., Melero, A., Mirabet, S., Aranda, L.,
+                            Guillot, A. J., Larrea, L. R., Escobedo-Lucea, C., & Pemán, J. (2021). <span
+                                class="font-bold">Microbiological assessment of arterial allografts processed in a tissue bank. </span>Cell and Tissue Banking, 22(4), 539–549.
                             <a target="_blank" href="https://doi.org/10.1007/s10561-021-09951-7" class="text-greygreen hover:text-gray-500">Read more</a>
                         </p>
                         <p class="font-avenir color-corvid pb-6">Mirabet, V., Salvador, C., Valentín, A., Escobedo-Lucea, C., Navarro, L., Gimeno, C., & Pemán, J.
                             (2021). <span class="font-bold">Risk assessment of arterial allograft contamination from tissue
-                                donors colonized by Candida auris. Journal of Hospital Infection</span>, 112, 49–53
+                                donors colonized by Candida auris. </span>Journal of Hospital Infection, 112, 49–53
                             <a target="_blank" href="https://doi.org/10.1016/j.jhin.2021.03.003" class="text-greygreen hover:text-gray-500">Read
                                 more</a>
                         </p>
