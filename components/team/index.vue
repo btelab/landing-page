@@ -192,7 +192,7 @@ export default {
                 title: "Anatomy & Pathology",
                 position: "Lab Technician",
                 url: '/CRISTINA.jpg',
-                link: "",
+                link: "https://www.linkedin.com/in/cristina-andr%C3%A9s-carbonell-400728298/",
             }, {
                 name: "Raquel Burgos Ríos",
                 title: "Anatomy & Pathology",
