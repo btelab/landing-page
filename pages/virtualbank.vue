@@ -12,7 +12,7 @@ export default {
   mounted() {
     // Redirige a la página externa
     setTimeout(() => {
-      window.location.href = 'http://46.24.18.239/dist';
+      window.location.href = 'http://46.24.18.239/';
     }, 3000); // Delay de 3 segundos antes de redirigir
   },
 };
